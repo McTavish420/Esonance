@@ -1,0 +1,109 @@
+/* Body Elements */
+body{
+  font-family: sans-serif;
+  background: url("images/img2.png") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+
+}
+
+.meas_container{
+  background-color: rgba(211,211,211, 0.3);
+}
+
+.row{
+  font-size: 30px;
+}
+
+.title{
+  font-size: 14px;
+  font-weight: bold;
+}
+.typingIcon{
+  height: 30px;
+  margin-bottom: 60px;
+  padding-top: 5px;
+}
+
+#content{
+  height: 120px;
+  background-color: rgba(211,211,211, 0.1);
+  margin: 10px auto;
+  font-size: 30px;
+  overflow: hidden;
+  padding: 0 5px;
+  line-height: 40px;
+}
+.change{
+  height: 25px;
+  font-size: 18px;
+}
+#input{
+  background-color: rgba(135, 234, 235, 0.3);
+  width: 100%;
+  font-size: 30px;
+  padding: 10px;
+  color: Black;
+}
+.keyboard{
+  min-height: 200px;
+  max-height: 300px;
+  background: url("images/keyboard.jpg") no-repeat center center;
+  background-size: contain;
+  margin-top: 10px;
+}
+.restart{
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.btn-primary{
+  background: rgba(236, 34, 202, 0.5);
+}
+.btn-primary: focus, .btn-primary: active, .btn-primary: hover{
+  background: rgba(236, 34, 202, 0.8);
+}
+.scoreDown, .scoreUp{
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+.scoreDown {
+  background: mediumvioletred;
+
+}
+.scoreUp{
+  background: greenyellow;
+  color: black;
+}
+.modal{
+  color: black;
+}
+@media only screen and (max-width: 368px) {
+  .title {
+    font-size: 5px;
+  }
+  .typeIcon{
+    height: 20px;
+
+    padding-top: 5px;
+  }
+}
+
+.activeWord{
+  background-color: greenyellow;
+  border-radius: 5px;
+
+}
+.correctCharacter{
+  color: aqua;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+}
+.wrongCharacter{
+  color: mediumvioletred;
+}
+.result{
+  font-size: 20px;
+}
