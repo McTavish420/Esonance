@@ -1,1 +1,0 @@
-<h3 class="marq" ><marquee onmouseover="this.stop();" onmouseout="this.start();">Registration deadline 09 September 2015 (Extended)...</marquee></h3>
