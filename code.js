@@ -1,2 +1,2 @@
-eventsModule.init(1, Math.floor(3 * Math.random()));
+eventsModule.init(60, Math.floor(3 * Math.random()));
 dataModule.returnData();
