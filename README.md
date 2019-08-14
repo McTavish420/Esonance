@@ -1,2 +1,3 @@
-# Esonance
-All Editing Process For Esonance
+# Typing Test Project
+
+Using only HTML, CSS and ES6
