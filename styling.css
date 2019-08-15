@@ -1,7 +1,7 @@
 /* Body Elements */
 body{
   font-family: sans-serif;
-  background: url("images/img2.png") no-repeat center center;
+  background-color: #35317d;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -9,7 +9,7 @@ body{
 }
 
 .meas_container{
-  background-color: rgba(211,211,211, 0.3);
+  background-color: rgba(220, 53, 69, 0.8);
 }
 
 .row{
@@ -21,9 +21,7 @@ body{
   font-weight: bold;
 }
 .typingIcon{
-  height: 30px;
-  margin-bottom: 60px;
-  padding-top: 5px;
+  height: 50px;
 }
 
 #content{
@@ -79,14 +77,9 @@ body{
 .modal{
   color: black;
 }
-@media only screen and (max-width: 368px) {
-  .title {
-    font-size: 5px;
-  }
-  .typeIcon{
-    height: 20px;
-
-    padding-top: 5px;
+@media only screen and (max-width: 576px) {
+  .keyboard{
+    opacity: 0;
   }
 }
 
